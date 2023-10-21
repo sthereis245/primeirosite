@@ -1,114 +1,14 @@
-/*primeiro comentario*/
-/*reset para navegador*/
-*{
-margin: 01; /*margem*/
-padding: 03; /*preenchimento*/
-}
-
-
 body{
-    height :100%;/*altura*/
-width: 100%;/*largura*/
-display: flex;
-justify-content: center;
-  background-image:url();
-   background-repeat: no-repeat;
-}
- image{
-    display:flex;
-    justify-content: center;
-}
-.imagem img{
-    width: 170px;
-    border-radius: 200px;
-    margin-top: 30px
-}
- .name{
-    margin-top: 10px;
-    display:flex;
- font-size: 32px;
- font-weight: 600px;
- color: slateblue;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
-   .redes-sociais{
-
-       margin-top:10px;
-        display:flex;/*oganizar intens na mesma linha*/
-        justify-content:center;
-         align-items:center; /*alinhamento de itens*/
-   }
-     .icon, .email{
-        display: inline-block; 
-        height: 35px;
-         width: 35px;
-         border-radius: 10px;
-          transition: all 0.35 ease-out;
-           box-shadow:5px 5px 5px rgba(5, 3, 3, 0.1);
-           cursor:pointer;
-           margin:3px;
-           overflow:hidden;
-     }
-     .icon i, .email i {
-        display: inline-block;
-        width:35px ;
-        height:35px;
-        line-height:35px;
-        text-align: center;
-        font-size:  22px;
-        border-radius:  30px;
-        background-color:rgb(237, 237, 237) ;
-        color: #308ff3;
-        cursor:pointer;
-     }
-     .icon span a{
-        list-style-type: style decimal;
-        font-family: monospace;
-        float:right;
-        margin-right: 23px; 
-        color:aquamarine
-        line-height:  35px; 
-        font-size: 17px;
-     }
- .name-icon{
-   font-family: Arial, Helvetica, sans-serif;
-    margin-right: 40px;
-    float:right;
-    color:aquamarine;
-    font-weight:100;
-     line-height: 35px;;
-     font-size: 17px;   
- }
- .icon:hover{
-    width: 125px;
-    background-color:wheat;
-    border-radius: 20px;
- }
-
- .icon:nth-child(1):hover  i {
-    background:blueviolet;
-
- }
- 
- .icon:nth-child(2):hover  i {
-    background:blueviolet;
-
- }
-
- .icom:nth-child(3):hover  i {
-    background:aqua  ;
-
- }
- .icon:nth-child(4):hover i{
-    background-color:black;
- }
-
- .email:hover i{
-
+    background-color:aliceblue;
 }
 
-     
+h1 {
     
+}
+
+p {
+    color:red;
+}
+div{
     
-    
- 
+}
