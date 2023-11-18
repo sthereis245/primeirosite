@@ -229,8 +229,76 @@ font-family: Arial, Helvetica, sans-serif;
     letter-spacing:1px;
     border-bottom:3px solid #149ddd;
  }
+@media (min-widht:1024px){
+ background-attachment:fixed;
+}
+@media (max-widht:768px){
+ #hero h1{
+font-size:28px;
+line-height:36px;
 
+ }
+ #hero h2{
+   font-size:18px;
+   line-height:24px;
+   margin-bottom:30px; 
+ }
+}
+/*========secao geral===*/
+section{
+    padding:60px 0;
+    overflow:hidden;
+}
+.section-bg{
+ background: #8a8b94;
+}
+.section-title{
+ padding-bottom:30px;
+}
+.section-title h2{
+font-size:32px;
+font-weight:bold ;
+margin-bottom:20px;
+padding-bottom:20px;
+position: relative;
+color: #212431;
+}
+.section-title h2::after{
+content: ;
+position:absolute ;
+display:block ;
+width:50px;
+height:3px ;
+background:aquamarine;
+bottom:0;
+left:0;
+}
+.section-title p{
+ margin-bottom: 0;
+}
+/*====sobre====*/
+.about.content h3{
+font-weight:700;
+font-size:26px;
+ color:maroon;
+}
+.about.content ul li{
+    list-style:none;
+    padding:0;
+}
 
-
-
-
+.about.content ul li{
+margin-bottom: 20px;
+display: flex;
+align-items:center;
+}
+.about.content ul strong{
+    margin-right:10px;
+}
+.about.content ul i{
+font-size: 16px;
+margin-right:5px;
+color:black;
+line-height:0;
+}
+/* Feitos*/
