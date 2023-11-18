@@ -1,86 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<main lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Profissional </title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title> Amanda | Dev </title>
+
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Google Fontes API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+
+    <!-- validadores Bootstraps CSS -->
+    <link rel="stylesheet" href="validador/aos/aos.css">
+    <link rel="stylesheet" href="validador/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="validador/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="validador/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="validador/glightbox/css/glightbox.min.css">
+    <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css">
+
+    <!-- estilo CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
+<>
 
-<body>
-    <main class="#">
-        <header class="imagem">
-            <img src="img/avatar3.jpg" alt="Perfil">
-        </header>
-        <div class="name"> Sthefanny Reis</div>
-            <section class="redes-sociais">
-                <div class="icon">
-                    <a href="#" target="_blank">
-                        <i class="ph ph-github-logo"></i>
-                    </a>
-                    <span> <a href="" target="_ blank">github </a>  
-                </div>
-                <div class="icon">
-                    <a href="#" target="_blank">
-                        <i class="ph ph-instagram-logo"></i>
-                    </a>
-                    <span> <a href="" target="_ blank"> instagram </a></span>
-                </div>
-                <div class="icon">
-                    <a href="#" target="_blank">
-                        <i class="ph ph-facebook-logo"></i>
-                    </a>
-                    <span> <a href="" target="_ blank"> facebook</a></span>
-                </div> 
-                <div class="icon">
-                    <div href="#" target="_blank">
-                        <i class="ph ph-twitter-logo"></i>
-                    </div>
-                </a>
-                    <span> <a href="" target="_ blank"> twitter</a></span>
-                </div>
-                <div id="email">
-                    <a href="mailto:sthefannyreis245@gmail.com"> <i class=" ph ph-microsoft-outlook-logo"></i> </a> 
-                </div> <!---- fim das redes sociais--->
-            </section>
-            <div class="texto">
-            <subtitulo id="sobre-mim">sobre mim</subtitulo>
-              <p> 
-                me chamo sthefanny, sou academica do primeiro semestre de criaçao de site no senai estou muito interresada em aprender e conhecer mais sobre,
-                venho desenvolvendo  me habilitando e me capcitando cada dia mais
-                </p>
-            </div> 
-            <h2 class="subtitulo"> linguagens para treinamento</h2>
+    <!-- botao para alternar a navegação mobile -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-        <div class="Linguagem"> <!----!linguagens de programaçao-->
-         <div class="front">
-            <img src="img/front.jpeg" alt=" linguagem de programaçao--">
-        </div> 
-        <div class="back ">
-            <img src="img/back.jpeg" alt=" linguagem de programaçao--">
-        </div>
-        </div>
-        <h2 class="subtitulo"> conheca meus projetos front end <h2>
-         <section class="projetos">
-      <div class="item"id="albumfotos">album de fotos</div>
-      <iframe id="Video" class="videoAlbum" width="560" height="315" src="https://www.youtube.com/embed/Mf8Be6jRZ4c?si=4ax4lVGDkvu5rLhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- Cabeçalho ===  HEADER --> 
+    <header id="header">
+        <div class="d-flex flex-column"> <!--div flex -->
 
-      <div class="item"id="casamento">casamento</div>
-      <iframe id="Video" class="videoCasamento" width="560" height="315" src="https://www.youtube.com/embed/Mf8Be6jRZ4c?si=4ax4lVGDkvu5rLhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="profile">  <!-- profile -->
+                <img src="img/perfil.jpg" alt="" class="img-fluid rounded-circle">
+                <h1 class="text-light">Amanda</h1>
+
+                <div class="social-links mt-3 text-center"> <!-- Social Links -->
+
+                    <a href="mailto:amandaluciabrito73@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+                    <a href="https://www.facebook.com/amanda.lucia.984786/" class="facebook"> <i class="bx bxl-facebook"></i> </a>
+                    <a href="https://www.instagram.com/_amandabrito___/" class="instagram"> <i class="bx bxl-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/amandabrito?_l=en_US" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    
+                </div> <!-- Social Links -->
+            </div>   <!--fim profile -->
+
+            <nav id="navbar" class="nav-menu navbar">  
+                <ul>
+                    <li> <a href="#hero" class="nav-link scrollto active">
+                        <i class="bx bx-home"></i> <span>Inicio</span> </a></li>
+
+                    <li> <a href="#about" class="nav-link scrollto">
+                        <i class="bx bx-user"></i> <span>Sobre</span> </a></li>
+
+                    <li> <a href="#resume" class="nav-link scrollto">
+                        <i class="bx bx-file-blank"></i> <span>Resumo</span> </a></li>
+
+                    <li> <a href="#portfolio" class="nav-link scrollto">
+                        <i class="bx bx-book-content"></i> <span>Portfolio</span> </a></li>
+
+                    <li> <a href="#services" class="nav-link scrollto">
+                        <i class="bx bx-server"></i> <span>Serviços</span> </a></li>
+
+                    <li> <a href="#contact" class="nav-link scrollto">
+                        <i class="bx bx-envelope"></i> <span>Contato</span> </a> </li>
+                </ul>
+            </nav>
+
+        </div> <!--fim div flex -->
+    </header> <!-- FIM Cabeçalho -->
+
+    <!-- começo HERO -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in"> <!-- container --> 
+            <h1>Amanda</h1>
+            <p> Eu sou <span class="typed" data-typed-items="Freelancer, Dev, Designer, Fotografo"> </span> </p>
+        </div> <!-- fim container -->
+    </section> <!-- Fim HERO -->
+
+    <main id="main"> <!--inicio main-->
+    <!--inicio Sobre-->
+    <section id="about" class="about">
+    <div class="container">
+
+    <div class="section-tittle">
+    <h2>Sobre</h2>
+    <p> com 17 anos   seu objetivo principal sempre foi um desenvolvimento pessoal e acadêmico, para então atingir um bom resultado profissional. Busca aprimoramento contínuo em    competências    socioemocionais por meio de cursos como Imprensa Jovem, Teatro, Gestão de Tempo... Trabalho em grupo, proatividade, determinação, comprometimento, inteligência emocional são algumas qualidades que a definem. Amanda procura um ambiente de trabalho que a auxilie em seu crescimento e se dispõe a entrega de ótimos resultados e uma ampla contribuição com a empresa.
+    </p>
+</div>
+<div class="row">
+<div class="col-lg4" data-aos="fade-right">
+
+ <img src="img/perfil.jpg" alt="" class="img-fluid"
+width="600px"height="600px">
+<div class="col-lg8 pt-4 pt-lg-0 content" data-aos="fade-left">
+   <h3>"estudante de teatro"</h3>
+   <p class="fst-italic"></p>                                                                                    
+</div> <!---fim fade left-->
+
+</div> <!--fim da  div container-->
+</section> <!--fim sobre-->
 
 
-         <div class="item" id=" buffet">buffet</div><iframe id="Video" class="videoBuffet"  width="560" height="315" src="https://www.youtube.com/embed/0D84LFKiGbo?si=K5Z21h043lrgGllN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-         <div>
-          <footer class="rodape">
-        <P class=" ult-paragrafo">&copy;2023- Sthefanny </p>
-         </div>
-        </footer>
-         </main>
-        <script src="js/script.js"></script>
 
 
-    </div>
+
+    
+
+
+    <!-- validadores JS-->
+
+    <script src="validador/purecounter/purecounter_vanilla.js"></script>
+    <script src="validador/aos/aos.js"></script>
+    <script src="validador/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="validador/glightbox/js/glightbox.min.js"></script>
+    <script src="validador/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="validador/swiper/swiper-bundle.min.js"></script>
+    <script src="validador/typed.js/typed.umd.js"></script>
+    <script src="validador/waypoints/noframework.waypoints.js"></script>
+
+    <!-- JS principal -->
+    <script src="js/main.js"></script>
+
 </body>
 </html>
