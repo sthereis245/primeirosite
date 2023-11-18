@@ -302,3 +302,13 @@ color:black;
 line-height:0;
 }
 /* Feitos*/
+.facts{
+    padding-bottom:30px;
+}
+.facts .count-box i{
+display:block;
+font-size:44px ;
+color: purple;
+float:left ;
+line-height: 0;
+}
