@@ -312,3 +312,30 @@ color: purple;
 float:left ;
 line-height: 0;
 }
+.facts.count-box span{
+font-size:48px;
+line-height:40px;
+display:block;
+font-weight:700px;
+color: ;
+margin-left:60px;
+}
+.facts.count-box p{
+    padding:15px 0 0 0 ;
+    margin:0 0 0 60px ;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size:14px ;
+    color: ;
+}
+.facts.count-box a{
+ font-weight: ;
+ display: block;
+ margin-top: 20px;
+ color: ;
+ font-size:15px;
+ font-family: Arial, Helvetica, sans-serif;
+ transition: ease-in-out 0.3s;
+}
+.facts.count-box a:hover{
+    color: #149ddd;
+}
